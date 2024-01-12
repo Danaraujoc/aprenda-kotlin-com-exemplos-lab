@@ -18,7 +18,7 @@ data class Formacao(val nome: String, var nivel: Nivel, var conteudos: List<Cont
         }
         println()
     }
-	//Função para organização impressão das informações
+    //Função para organização impressão das informações
     fun imprimirInformacoes() {
         println("Detalhes da Formação:")
         println("Nome: $nome")
